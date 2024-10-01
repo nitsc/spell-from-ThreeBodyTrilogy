@@ -1,1 +1,1 @@
-The python file was using my local computer's absolute path, but now I can't upload it in time to change it, so you can change the path yourselves.
+The python file was originally using the absolute path of my local computer. Now it's too late to upload to GitHub to change the path, so you guys can change the path yourselves.
