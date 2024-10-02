@@ -1,3 +1,4 @@
+import os
 import numpy as np
 from scipy.io.wavfile import read
 from scipy.fft import fft
@@ -44,10 +45,14 @@ def demodulate(audio_file, sample_rate=44100, freq_0=440, freq_1=880, samples_pe
 
     return recovered_signal
 
-# 示例用法
-audio_file = "F:\project\zhouyu\data\\result\solar_sys\smaller_scale\\audio\signal_audio.wav"
+# 获取桌面路径
+desktop_path = os.path.join(os.path.expanduser("~"), "Desktop")
+output_path = os.path.join(desktop_path, "recovered_signal.txt")
+
+audio_file = input("请输入音频文件路径(nitsc谷歌云硬盘分享的)：")
 recovered_signal = demodulate(audio_file)
 print(recovered_signal)
-output_path = "F:/recovered_signal.txt"
 with open(output_path, 'w') as f:
     f.write(recovered_signal)
+    
+print("恢复的文本信号已保存到桌面！")

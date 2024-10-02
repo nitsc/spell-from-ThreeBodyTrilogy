@@ -1,3 +1,4 @@
+import os
 import cv2
 import numpy as np
 
@@ -32,13 +33,22 @@ def process_image(image_path):
     return img
 
 # 图像路径列表
-image_paths = ["F:\project\zhouyu\data\\result\\recovered\smaller\\recovered_XY.png", 
-               "F:\project\zhouyu\data\\result\\recovered\smaller\\recovered_XZ.png", 
-               "F:\project\zhouyu\data\\result\\recovered\smaller\\recovered_YZ.png"]
+xy = input("请输入XY图像路径(来自recover_img.py)：")
+xz = input("请输入XZ图像路径(来自recover_img.py)：")
+yz = input("请输入YZ图像路径(来自recover_img.py)：")
+image_paths = [xy, 
+               xz, 
+               yz]
 
-paths = ['F:\project\zhouyu\data\\result\\recovered\smaller\\recovered_XY_color.png', 
-               'F:\project\zhouyu\data\\result\\recovered\smaller\\recovered_XZ_color.png', 
-               'F:\project\zhouyu\data\\result\\recovered\smaller\\recovered_YZ_color.png']
+# 获取桌面路径
+desktop_path = os.path.join(os.path.expanduser("~"), "Desktop")
+oxy = os.path.join(desktop_path, 'recovered_XY_color.png')
+oxz = os.path.join(desktop_path, 'recovered_XZ_color.png')
+oyz = os.path.join(desktop_path, 'recovered_YZ_color.png')
+
+paths = [oxy, 
+        oxz, 
+        oyz]
 
 # 遍历图像列表并处理
 for image_path in image_paths:
@@ -47,4 +57,4 @@ for image_path in image_paths:
         # 保存处理后的图像
         cv2.imwrite(path, processed_img)
 
-print("图像处理完成！")
+print("有色图片已保存到桌面！")

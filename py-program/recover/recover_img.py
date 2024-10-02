@@ -1,3 +1,4 @@
+import os
 import numpy as np
 from PIL import Image
 
@@ -11,7 +12,8 @@ def bits_to_img(bits, width, height):
     return Image.fromarray(gray_img.astype(np.uint8))
 
 # 读取保存的信号
-with open("F:\project\zhouyu\data\\result\\recovered\smaller\\recovered_signal.txt", 'r') as f:
+path = input("请输入保存的信号文件路径(来自recover_signal.py)：")
+with open(path, 'r') as f:
     signal_str = f.read()
 signal = np.array(list(signal_str), dtype=int)
 
@@ -24,7 +26,12 @@ img1_recovered = bits_to_img(bits_xy, width, height)
 img2_recovered = bits_to_img(bits_xz, width, height)
 img3_recovered = bits_to_img(bits_yz, width, height)
 
+# 获取桌面路径
+desktop_path = os.path.join(os.path.expanduser("~"), "Desktop")
+
 # 保存恢复的图像
-img1_recovered.save('F:\project\zhouyu\data\\result\\recovered\smaller\\recovered_XY.png')
-img2_recovered.save('F:\project\zhouyu\data\\result\\recovered\smaller\\recovered_XZ.png')
-img3_recovered.save('F:\project\zhouyu\data\\result\\recovered\smaller\\recovered_YZ.png')
+img1_recovered.save(os.path.join(desktop_path, 'recovered_XY.png'))
+img2_recovered.save(os.path.join(desktop_path, 'recovered_XZ.png'))
+img3_recovered.save(os.path.join(desktop_path, 'recovered_YZ.png'))
+
+print("恢复的图像已保存到桌面！")
