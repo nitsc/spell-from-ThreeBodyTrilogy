@@ -1,7 +1,7 @@
 # Python Implementation of Incantation from *The Three-Body Trilogy*
 
 ## Overview
-This project implements a process that extrapolates from Gaia stellar data to 3D visualizations, three-view projections, signal generation, audio translation of signals, and their inversions. It demonstrates the feasibility of the "incantation" logic from *The Three-Body Problem* trilogy.
+Implemented the process of extrapolating from Gaia stellar data, to 3D visualizations, to three-views, to three-view signals, to three-view audio of signals, and even their inversions. This project proves the feasibility of the Logic (Luoji)'s “incantation” from “The Three Body Problem” trilogy.
 
 ## Usage Notes
 - Place the 'incantation-from-ThreeBodyTrilogy-main' folder in `D:\temp` for the program to work properly. Alternatively, you can modify the paths in the program to match your environment.
