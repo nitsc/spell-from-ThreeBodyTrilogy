@@ -1,1 +1,1 @@
-The python file was originally using the absolute path of my local computer. Now it's too late to upload to GitHub to change the path, so you guys can change the path yourselves.
+Note that the **incantation-from-ThreeBodyTrilogy-main** folder must be placed under **D:\temp** for the program to work properly.
