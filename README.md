@@ -1,4 +1,4 @@
-# incantation-from-ThreeBodyTrilogy
+# A python implementation of incantation-from-ThreeBodyTrilogy
 ---
 ## Overview
 Implemented the process of extrapolating from Gaia stellar data, to 3D visualizations, to three-views, to three-view signals, to three-view audio of signals, and even their inversions. This project proves the feasibility of the Logic (Luoji)'s “incantation” from “The Three Body Problem” trilogy.
@@ -12,3 +12,62 @@ Implemented the process of extrapolating from Gaia stellar data, to 3D visualiza
 
 ## Acknowledgements
 As a 13 year old developer. I'd like to start by thanking my country and my parents for raising me. And then to GitHub and CSDN for building platforms for technical interaction. I'm also grateful to the Microsoft team for providing me with the VSCode and Windows. Thanks to the Python team for providing me with the efficient and simple Python language. Thanks to OpenAI and Google, whose AI has helped me in some ways.
+
+
+# An aticle about incantation from Three Body Trilogy (from 三体wiki, translated by DeepL) 
+---
+## Overview of the Law of the Dark Forest
+The Law of the Dark Forest can be simply understood as the idea that once a cosmic civilization is discovered, it is bound to be devastated by other civilizations in the universe.
+
+## Key Elements
+### Two main axioms:
+- Survival is the first need of a civilization.
+- Civilizations grow and expand, but the total amount of matter in the universe remains constant.
+### Two concepts:
+- Chain of Guesses and Technological Explosion
+
+## Reason for Establishment.
+“Survival is the first need of civilization” Civilization needs to survive by acquiring resources to keep itself alive and to ensure the existence of self-subjective consciousness to keep civilization going.
+“Civilization continues to grow and expand, but the total amount of matter in the universe stays the same”, civilization needs to continuously achieve the maximum acquisition of resources to the best of its ability within a limited environment in order to fight against and annex other civilizations. The larger the scale of the civilization turns out to be in the process of development, the more this limited environment will keep expanding. (Civilizations that do not know each other's coordinates cannot compete)
+In this context, the civilizations are full of fierce competition between the atmosphere, each want to stand out from the civilization (in other words, the pursuit of better survival) can only do is to continue to grow their own, which gives rise to the possibility of “technological explosion”. “Technology explosion” can reduce the gap between the high-level civilization and the lower civilization (unless the technology blockade, such as the book of the three-body human launch homo sapiens to the Earth), but the technology explosion can be generated at any time, the high-level civilization of the survival of the threat and hidden danger.
+This threat comes from the “chain of suspicion”, which is a reflection of the lack of identity between civilizations, as in “How do you know how I know how you know how I know how I know...”. How do you know if you're good or evil?”, low-level civilization development threatens high-level civilization, high-level civilization doesn't care to communicate with low-level civilization (not much to gain), and communication needs to cost more, so it's hard for both sides to have common interests. Higher civilizations often take the cheapest and most efficient way to solve this situation, that is, to fight in the dark forest and hide or consolidate their own existence, which is what the singer said, “hide yourself and do a good job of cleaning up”.
+The preservation of one's own survival interests is the key factor in the establishment of the Law of the Dark Forest.
+''' Luoji
+The real universe is that dark. 
+'''
+
+## The process of derivation
+- Derive the fundamental contradiction between civilizations from the conservation of matter and the exponential expansion of civilizations.
+
+- Specific to the contact between two civilizations A, B.
+
+Let's assume that A discovers B first.
+Due to Axiom 1, both parties, in order to ensure their survival, must first judge the other party's goodwill and badwill, and “a goodwill civilization does not presuppose that other civilizations are also goodwill.”
+- (1) If A chooses to communicate with B, a chain of suspicion is formed as a result of the mutual judgment described above, while A reveals the existence of his side. If AB is of equal strength, B poses an actual threat to A after the chain of suspicion; if B lags behind A, a technological explosion (possibly triggered by A's exchange) may allow B to pose a threat to A in a relatively short period of time. 
+- (2) If A chooses to remain hidden, B will still discover A after the technological explosion, the chain of suspicion occurs, and A's presence is revealed, translating into the first scenario.
+From Axiom 1 and the nature of the chain of suspicion, it is concluded that if civilization A discovers civilization B, A can only strike at B.
+To summarize, 
+- i. Letting you know of my existence; 
+- ii. Letting you continue to exist are both dangerous to me and both violate the first axiom.
+- III. A possible explanation for the “Great Silence”, the Fermi Paradox, has been proposed. Civilizations with higher levels of technology tend to hide themselves, making it difficult for other civilizations to detect them. Civilizations that expose themselves are wiped out in a dark forest strike. Survival choices result in all civilizations becoming difficult to detect.
+
+## Spell Experiment Theory
+The Mantra Experiment Theory is based on three objective facts verified by Luo's “Mantra Experiment”.
+- Higher civilizations have big killers.
+- The Dark Forest's strikes are timely and accurate.
+- Higher civilizations preferred to strike rather than detect.
+- Based on Luo's spell experiment and the detailed observation of the destruction of the Triad's home planet, the Dark Forest will exist objectively as a fact.
+
+## Flaws
+The strength of the Mantra Experiment theory is that there are no loopholes, but the flaw is that all the settings come from a single observation, rather than an experimental summary of multiple observations. (This led to skepticism in the Post-Deterrence Era, and it was not until the Triune Galaxy was struck by light particles in the 7th year of the Broadcast Era that it was completely confirmed).
+
+## Historical examples
+- Columbus' discovery of the New World America, the Spanish colonization of the American continent, the brutal killing of Indians, and the destruction of the Aztec civilization
+- The British opened up Australia with the mass killing of indigenous people who were considered monsters.
+
+## Remarks
+- The original Dark Forest Law is the “doctrine of natural selection” established by Darwin and Wallace, and Zhang Beihai escaped from the solar system on the “Natural Selection” ship.
+- In the course of deducing the Law of the Dark Forest to Shi Qiang, Luo said that “others are hell”, which may be attributed to Jean-Paul Sartre, the master of existentialist philosophy.
+- “The real universe is this dark.” Luo reached out and waved his hand, feeling the texture of the darkness like stroking a swan's mute, “The universe is a dark forest, and every civilization is a hunter with a gun, stalking the forest like a ghost, gently plucking away the branches that stand in the way, trying not to make the slightest sound from his footsteps, and being careful even to breathe... ...... ”
+- “He had to be careful, for the forest was full of hunters who stalked like him. If he found another being, hunter or no hunter, angel or devil, delicate baby or staggering old man, heavenly maiden or heavenly man, there was only one thing to do: shoot to destroy. In this forest, others are hell, an eternal threat, and any being who reveals his or her existence will soon be annihilated. This is the picture of civilization in the universe, and this is the explanation for the Fermi Paradox.”
+- “But there was a foolish child in the dark forest called Man, who built a fire and shouted beside it, I'm here! I'm here!”
