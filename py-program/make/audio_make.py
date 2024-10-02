@@ -3,11 +3,8 @@ from scipy.io.wavfile import write
 import os
 from tqdm import tqdm
 
-new_directory = "F:/project/咒语" # 创建新目录
-os.chdir(new_directory)
-
 # 读取信号文件
-with open("F:/project/咒语/RES/太阳系/bigest/signal.txt", 'r') as file:
+with open("D:\\temp\\incantation-from-ThreeBodyTrilogy-main\\data\\result\\solar-sys\\signal\\signal.txt", 'r') as file:
     signal = file.read().strip()  # 读取并去除任何可能的空白字符
 
 # 参数设置
@@ -35,8 +32,11 @@ for i, bit in enumerate(tqdm(signal, desc="Generating audio signal", total=total
 # 归一化到[-1, 1]
 audio_signal = audio_signal / np.max(np.abs(audio_signal))
 
+# 获取桌面路径
+desktop_path = os.path.join(os.path.expanduser("~"), "Desktop")
+
 # 保存为WAV文件
-output_path = "F:/project/咒语/RES/太阳系/bigest/signal_audio.wav"
+output_path = os.path.join(desktop_path, "output.wav")
 write(output_path, sample_rate, audio_signal.astype(np.float32))
 
 print(f"Audio file generated as '{output_path}'")

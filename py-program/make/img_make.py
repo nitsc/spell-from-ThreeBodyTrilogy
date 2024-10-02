@@ -3,8 +3,12 @@ import pandas as pd
 from mayavi import mlab
 import os
 
+# 获取工作目录
+work_path = os.getcwd()
+print(work_path)
+
 # 读取数据
-file_path = "F:\\project\\zhouyu\\data\\source\\csv\\南二门xyz.csv"
+file_path = "D:\\temp\\incantation-from-ThreeBodyTrilogy-main\\data\\source\\cartesian_coordinate_sys_representation.csv"
 data = pd.read_csv(file_path)
 
 bs = 1

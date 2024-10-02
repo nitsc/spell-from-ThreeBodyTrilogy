@@ -2,13 +2,10 @@ from PIL import Image
 import numpy as np
 import os 
 
-new_directory = "F:/project/zhouyu/py-program"  # 你想要切换到的目录路径
-os.chdir(new_directory)
-
 # 读取图片
-img1 = Image.open("F:/project/zhouyu/data/GRAPH/bigest/XY.png").convert('L')  # 转换为灰度图
-img2 = Image.open("F:/project/zhouyu/data/GRAPH/bigest/XZ.png").convert('L')
-img3 = Image.open("F:/project/zhouyu/data/GRAPH/bigest/YZ.png").convert('L')
+img1 = Image.open("D:\\temp\\incantation-from-ThreeBodyTrilogy-main\\data\\result\\graph\\2D_plot_xy_367.png").convert('L')  # 转换为灰度图
+img2 = Image.open("D:\\temp\\incantation-from-ThreeBodyTrilogy-main\\data\\result\\graph\\2D_plot_xz._367.png").convert('L')
+img3 = Image.open("D:\\temp\\incantation-from-ThreeBodyTrilogy-main\\data\\result\\graph\\2D_plot_yz._367.png").convert('L')
 
 # 将图片转换为二值化数据
 def img_to_bits(img):
@@ -28,7 +25,10 @@ signal = np.concatenate([bits_xy, bits_xz, bits_yz])
 print(f"Generated signal with length: {len(signal)}")
 print(f"First 100 bits of signal: {signal[:100]}")
 
+# 获取桌面路径
+desktop_path = os.path.join(os.path.expanduser("~"), "Desktop")
+
 # 你也可以将信号保存为文件
-with open('signal.txt', 'w') as f:
+with open(os.path.join(desktop_path,"signal.txt"), 'w') as f:
     f.write(''.join(signal.astype(str)))
     print("Successfully saved signal to signal.txt")
