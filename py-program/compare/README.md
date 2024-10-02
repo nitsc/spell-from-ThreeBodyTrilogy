@@ -1,1 +1,1 @@
-Compare the original three views with the reverse-compiled three views.
+**Compare** the original signal with the reverse-compiled signal.
