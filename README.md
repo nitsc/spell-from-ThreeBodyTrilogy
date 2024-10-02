@@ -15,7 +15,7 @@ As a 13-year-old middle school developer in China, to express gratitude and admi
 - **Cixin-Liu(刘慈欣)**: He single-handedly raised Chinese sci-fi to the world level, and his novels have been a profound inspiration to me.
 - **GitHub**&**CSDN**: A powerful platform for uploading and communicating my projects.
 - **Microsoft**: Providing VSCode and Windows 11.
-- **Intel**: Proving CPU.
+- **Intel**: Providing CPU.
 - **Python.org**: Providing an efficient and simple language.
 - **Google**&**OpenAI**: Thier LLMs teach me something about programming.
 
