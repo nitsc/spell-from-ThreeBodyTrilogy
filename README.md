@@ -9,7 +9,15 @@ This project implements a process that extrapolates from Gaia stellar data to 3D
 - Please refrain from playing the generated audio at high volume, in accordance with the "Dark Forest Theory."
 
 ## Acknowledgements
-At 13 years old, I'd like to express my gratitude to my country and parents for their support. Thanks to GitHub and CSDN for fostering technical collaboration, Microsoft for providing VSCode and Windows, and Python for offering an efficient and simple language. Special thanks to OpenAI and Google for their AI tools, which have been helpful.
+As a 13-year-old middle school developer in China, to express gratitude and admiration for the following persons or organizations:
+- **China(中国)**: My country, which feeds me.
+- **Parents**: Giving me material and spiritual help
+- **Cixin-Liu(刘慈欣)**: He single-handedly raised Chinese sci-fi to the world level, and his novels have been a profound inspiration to me.
+- **GitHub**&**CSDN**: A powerful platform for uploading and communicating my projects.
+- **Microsoft**: Providing VSCode and Windows 11.
+- **Intel**: Proving CPU.
+- **Python.org**: Providing an efficient and simple language.
+- **Google**&**OpenAI**: Thier LLMs teach me something about programming.
 
 ---
 
