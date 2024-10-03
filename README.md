@@ -1,10 +1,10 @@
-# Python Implementation of Incantation from *The Three-Body Trilogy*
+# Python Implementation of Spell from *The Three-Body Trilogy*
 
 ## Overview
-Implemented the process of extrapolating from Gaia stellar data, to 3D visualizations, to three-views, to three-view signals, to three-view audio of signals, and even their inversions. This project proves the feasibility of the Logic (Luoji)'s “incantation” from “The Three Body Problem” trilogy.
+Implemented the process of extrapolating from Gaia stellar data, to 3D visualizations, to three-views, to three-view signals, to three-view audio of signals, and even their inversions. This project proves the feasibility of the Logic (Luoji)'s “spell” from “The Three Body Problem” trilogy.
 
 ## Usage Notes
-- Place the 'incantation-from-ThreeBodyTrilogy-main' folder in `D:\temp` for the program to work properly. Alternatively, you can modify the paths in the program to match your environment.
+- Place the 'spell-from-ThreeBodyTrilogy-main' folder in `D:\temp` for the program to work properly. Alternatively, you can modify the paths in the program to match your environment.
 - Output data will be saved on the desktop to avoid overwriting the provided results (including three-view projections, signal files, and audio).
 - Please refrain from playing the generated audio at high volume, in accordance with the "Dark Forest Theory."
 
@@ -21,7 +21,7 @@ As a 13-year-old middle school developer in China, to express gratitude and admi
 
 ---
 
-# The Incantation from *The Three-Body Trilogy* (from 三体Wiki, translated by DeepL)
+# The spell from *The Three-Body Trilogy* (from 三体Wiki, translated by DeepL)
 
 ## Overview of the Dark Forest Theory
 The Dark Forest Theory posits that any civilization that reveals itself is doomed to destruction by other civilizations in the universe.
@@ -46,8 +46,8 @@ Civilizations need to acquire resources for survival and expansion, but they com
 
 In both scenarios, A concludes that the only safe option is to destroy B, reinforcing the theory.
 
-## Incantation Experiment Theory
-Luo Ji's "incantation experiment" confirms several facts:
+## spell Experiment Theory
+Luo Ji's "spell experiment" confirms several facts:
 1. Higher civilizations possess powerful weapons.
 2. Dark Forest strikes are timely and accurate.
 3. Higher civilizations prefer to attack rather than detect.
