@@ -8,7 +8,7 @@ def compare_files(file1, file2):
         return "信号文件不相同，咒语可能成立"
 
 def main():
-    file1 = "D:\\temp\\incantation-from-ThreeBodyTrilogy-main\\data\\result\\solar-sys\\signal\\signal.txt"
+    file1 = "D:\\temp\\spell-from-ThreeBodyTrilogy-main\\data\\result\\solar-sys\\signal\\signal.txt"
     file2 = input("输入恢复信号文件路径（来自recover_signal.py）: ")
 
     if os.path.exists(file1) and os.path.exists(file2):
