@@ -4,7 +4,7 @@ import os
 from tqdm import tqdm
 
 # 读取信号文件
-with open("D:\\temp\\incantation-from-ThreeBodyTrilogy-main\\data\\result\\solar-sys\\signal\\signal.txt", 'r') as file:
+with open("D:\\temp\\spell-from-ThreeBodyTrilogy-main\\data\\result\\solar-sys\\signal\\signal.txt", 'r') as file:
     signal = file.read().strip()  # 读取并去除任何可能的空白字符
 
 # 参数设置
