@@ -1,6 +1,7 @@
 # Python Implementation of Spell from *The Three-Body Trilogy*
 
-## GitHub Pioneer: Reviving the Concept of the 'Spell' from 'The Dark Forest' using Python
+## GitHub Pioneer: 
+Reviving the Concept of the 'Spell' from 'The Dark Forest' using Python
 
 ## MAJOR UPDATE: Repository name has changed!!!!
 Changed from **“incantation-from-ThreeBodyTrilogy”** to **“spell-from-ThreeBodyTrilogy”**
