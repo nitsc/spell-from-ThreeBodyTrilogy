@@ -3,9 +3,9 @@ import numpy as np
 import os 
 
 # 读取图片
-img1 = Image.open("D:\\temp\\incantation-from-ThreeBodyTrilogy-main\\data\\result\\graph\\2D_plot_xy_367.png").convert('L')  # 转换为灰度图
-img2 = Image.open("D:\\temp\\incantation-from-ThreeBodyTrilogy-main\\data\\result\\graph\\2D_plot_xz._367.png").convert('L')
-img3 = Image.open("D:\\temp\\incantation-from-ThreeBodyTrilogy-main\\data\\result\\graph\\2D_plot_yz._367.png").convert('L')
+img1 = Image.open("D:\\temp\\spell-from-ThreeBodyTrilogy-main\\data\\result\\graph\\2D_plot_xy_367.png").convert('L')  # 转换为灰度图
+img2 = Image.open("D:\\temp\\spell-from-ThreeBodyTrilogy-main\\data\\result\\graph\\2D_plot_xz._367.png").convert('L')
+img3 = Image.open("D:\\temp\\spell-from-ThreeBodyTrilogy-main\\data\\result\\graph\\2D_plot_yz._367.png").convert('L')
 
 # 将图片转换为二值化数据
 def img_to_bits(img):
