@@ -69,3 +69,4 @@ The theory is strong but based on a single observation, not multiple experiments
 - The Dark Forest Theory is a natural extension of Darwin and Wallace’s "doctrine of natural selection."
 - Luo Ji’s famous line, "others are hell," is a nod to existentialist philosopher Jean-Paul Sartre.
 - "The universe is a dark forest, and every civilization is a hunter, creeping through the forest like a ghost..."
+- "Luoji", "Luo Ji", and "LOGIC" are both "罗辑", a character in Three Body Problem.
