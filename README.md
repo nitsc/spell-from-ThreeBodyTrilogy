@@ -53,7 +53,7 @@ Civilizations need to acquire resources for survival and expansion, but they com
 In both scenarios, A concludes that the only safe option is to destroy B, reinforcing the theory.
 
 ## Spell Experiment Theory
-Luo Ji's "spell experiment" confirms several facts:
+Luoji '”s "spell experiment" confirms several facts:
 1. Higher civilizations possess powerful weapons.
 2. Dark Forest strikes are timely and accurate.
 3. Higher civilizations prefer to attack rather than detect.
