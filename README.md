@@ -7,6 +7,9 @@ Reviving the Concept of the 'Spell' from 'The Dark Forest' using Python
 Changed from **“incantation-from-ThreeBodyTrilogy”** to **“spell-from-ThreeBodyTrilogy”**
 
 ## Overview
+![XY](https://github.com/user-attachments/assets/5be8b461-6ded-41ed-a424-e4320d8f10f0)
+![YZ](https://github.com/user-attachments/assets/65842a17-be92-4aee-ac8d-864e89ecb01c)
+![XZ](https://github.com/user-attachments/assets/90d22ca7-a225-4915-9aba-79923387fc0e)
 Implemented the process of extrapolating from Gaia stellar data, to 3D visualizations, to three-views, to three-view signals, to three-view audio of signals, and even their inversions. This project proves the feasibility of the Luoji's “spell” from “The Three Body Problem” trilogy.
 
 ## Usage Notes
